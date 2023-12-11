@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:rgb(171, 160, 164);
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:30px 10% ;
+    background: linear-gradient(135deg,rgb(59, 18, 49),rgb(45, 43, 44),rgb(59, 18, 49));;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 6vh;
+    height: 6vh;
+}
+.nav-bar{
+    list-style: none;
+}
+.nav-bar li{
+    margin: auto;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-bar li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-bar li a:hover {
+    color: #ea8ae2b6;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(198, 116, 178);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    
+}
+button:hover{
+    background-color: rgb(198, 116, 178,0.8);
+}
+
+/* wheather app */
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,rgb(59, 18, 49),rgb(45, 43, 44),rgb(59, 18, 49));
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(171, 160, 164);
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 18px;
+    font-size: 18px;
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgb(171, 160, 164);
+    border-radius: 45%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+
+}
+.search button img{
+    width: 16px;
+}
+.icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.wheather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.wheather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
